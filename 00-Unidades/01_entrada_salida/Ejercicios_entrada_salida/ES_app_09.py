@@ -36,8 +36,8 @@ class App(customtkinter.CTk):
         numero = int(self.txt_sueldo.get())
         importe = numero * 0.15
         sueldo = numero + importe
-        alert("Sueldo Actualizado", f"el sueldo actualizado es "+ str(sueldo))
-        
+
+        alert("Sueldo", "El sueldo total es "+str(sueldo))
 
 if __name__ == "__main__":
     app = App()
